@@ -1,0 +1,230 @@
+body {
+  background-color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0%;
+  margin: 0%;
+}
+/* body,
+html {
+  height: 100%;
+  margin-top: 0%;
+  background-color: black;
+} */
+/*h1 {
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+}*/
+.titulos {
+  color: #8ebdb6;
+  text-align: center;
+  font-family: sans-serif;
+  margin-bottom: 0px;
+  margin-top: 5px;
+  padding: 3px;
+}
+/* form {
+  #3e838c
+} */
+.questoes1 {
+  /* color: rgb(223, 217, 217); */
+  padding: 10px;
+  background-color: #8ebdb6;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-style: solid;
+  border-color: #3e838c;
+  font-family: sans-serif;
+  border-radius: 20px;
+  padding-top: 5px;
+  font-weight: bold;
+}
+.questoes2 {
+  /* color: rgb(223, 217, 217); */
+  padding: 10px;
+  background-color: #3e838c;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-style: solid;
+  border-color: #3e838c;
+  font-family: sans-serif;
+  border-radius: 20px;
+  padding-top: 5px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+input {
+  accent-color: black;
+  outline: 0cm;
+  border: 0px;
+}
+hr {
+  margin-top: 1px;
+  border: 1px solid #3e838c;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.questoes3 {
+  /* color: rgb(223, 217, 217); */
+  padding: 10px;
+  background-color: #8ebdb6;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-style: solid;
+  border-color: #3e838c;
+  font-family: sans-serif;
+  border-radius: 20px;
+  padding-top: 5px;
+  font-weight: bold;
+}
+
+.questoes4 {
+  /* color: rgb(223, 217, 217); */
+  padding: 10px;
+  background-color: #3e838c;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-style: solid;
+  border-color: #3e838c;
+  font-family: sans-serif;
+  border-radius: 20px;
+  padding-top: 5px;
+  font-weight: bold;
+  margin-top: 15px;
+   }
+
+   .questoes5 {
+    /* color: rgb(223, 217, 217); */
+    padding: 10px;
+    background-color: #8ebdb6;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-style: solid;
+    border-color: #3e838c;
+    font-family: sans-serif;
+    border-radius: 20px;
+    padding-top: 5px;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+
+  .questoes6 {
+    /* color: rgb(223, 217, 217); */
+    padding: 10px;
+    background-color: #3e838c;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-style: solid;
+    border-color: #3e838c;
+    font-family: sans-serif;
+    border-radius: 20px;
+    padding-top: 5px;
+    font-weight: bold;
+    margin-top: 15px;
+     }
+
+   
+#coisos {
+  margin: 5px;
+}
+#botao-do-mumu {
+  font-size: medium;
+  border-radius: 10px;
+  padding: 10px;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: bolder;
+  background-color: rgb(187, 187, 187);
+  transition-duration: 0.3s;
+  margin-left: 20%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 2px solid #000;
+}
+#botao-do-mumu:hover {
+  background-color: #3e838c;
+  color: black;
+  border: 2px solid #224b50;
+  cursor: pointer;
+}
+/*cores usadas
+#224b50
+#8ebdb6
+#3e838c
+*/
+  /*Logout */
+  .logout-button {
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Moedas */
+
+#imagem {
+  width: 50px;
+  float: right;
+}
+
+/* Loja */
+
+.botao-loja {
+  width: 100px;
+  height: 35px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: rgb(60, 213, 240);
+  float: right 
+}
+
+
+
+/* Rodapé */
+
+footer {
+    background-color: #000000;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .col {
+    flex-basis: 50%;
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer-links li {
+    margin: 0 10px;
+  }
+  
+  .footer-links li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .footer-links li a:hover {
+    text-decoration: underline;
+  }
+  
