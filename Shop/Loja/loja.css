@@ -1,6 +1,14 @@
 /* loja.css */
+#imagem{
+  height: 50px;
+  width: 50px;
+  float: left;
+}
 
-/* Estilos gerais */
+#monedas{
+  margin-left: 55px;
+}
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -13,14 +21,19 @@ body {
   padding: 20px;
 }
 
-/* Estilos do cabeçalho */
+
 header {
   background-color: #333;
   color: #fff;
   padding: 20px;
+  font-family: sans-serif;
+  font-weight: bold ;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
 }
 
-/* Estilos do menu de navegação */
+
 nav {
   background-color: #eee;
   padding: 10px;
@@ -43,7 +56,7 @@ nav ul li a {
   padding: 5px;
 }
 
-/* Estilos da área de produtos */
+
 main {
   display: flex;
   flex-wrap: wrap;
@@ -60,11 +73,66 @@ main {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.product img {
-  width: 100%;
-  height: auto;
+#imagem1{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
 }
 
+#imagem2{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+#imagem3{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+#imagem4{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+#imagem5{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-left: 15px;
+}
+#imagem6{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+
+  
+}
+.product{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.product2{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.product3{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.product4{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.product5{
+  margin-left: 20px;
+  margin-right: 20px;
+  float: right;
+}
+.product6{
+  margin-left: 20px;
+  margin-right: 20px;
+  
+}
 .product h2 {
   margin-top: 10px;
   font-size: 20px;
@@ -116,8 +184,112 @@ main {
   cursor: pointer;
 }
 
+.product2 {
+  width: 300px;
+  margin: 10px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
 
-/* Estilos do rodapé */
+.product3 img {
+  width: 100%;
+  height: 300 x 295;
+}
+
+.product3 h2 {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.product3 p {
+  color: #666;
+}
+
+.product3 button {
+  display: block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.product4 img {
+  width: 100%;
+  height: 300 x 295;
+}
+
+.product4 h2 {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.product4 p {
+  color: #666;
+}
+
+.product4 button {
+  display: block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.product5 img {
+  width: 100%;
+  height: 300 x 295;
+}
+
+.product5 h2 {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.product5 p {
+  color: #666;
+}
+
+.product5 button {
+  display: block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.product6 img {
+  width: 100%;
+  height: 300 x 295;
+}
+
+.product6 h2 {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.product6 p {
+  color: #666;
+}
+
+.product6 button {
+  display: block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #333; 
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+
+
 footer {
   background-color: #333;
   color: #fff;
